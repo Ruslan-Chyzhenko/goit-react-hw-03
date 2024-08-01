@@ -1,0 +1,33 @@
+/* Feedback.module.css */
+.feedbackContainer {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feedbackTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.feedbackItem {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.feedbackTotal {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #111;
+}
+
+.feedbackPositive {
+  font-weight: bold;
+  color: #28a745;
+}
