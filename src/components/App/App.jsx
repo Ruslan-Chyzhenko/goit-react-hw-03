@@ -4,6 +4,7 @@ import ContactForm from "../ContactForm/ContactForm";
 import SearchBox from "../SearchBox/SearchBox";
 import css from "../App/App.module.css";
 import { useState } from "react";
+import { nanoid } from "nanoid";
 
 export default function App() {
   const [tasks, setTasks] = useState(initialTasks);
@@ -22,7 +23,7 @@ export default function App() {
   };
 
   const visibleTasks = tasks.filter((task) =>
-    task.text.toLowerCase().includes(filter.toLowerCase())
+    task.name.toLowerCase().includes(filter.toLowerCase())
   );
 
   return (
@@ -34,5 +35,3 @@ export default function App() {
     </div>
   );
 }
-
-// export default App;

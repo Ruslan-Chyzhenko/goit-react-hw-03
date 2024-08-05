@@ -1,9 +1,16 @@
 .form {
   display: flex;
-  gap: 4px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.field {
+/* .field {
   font: inherit;
   padding: 4px;
+} */
+
+.field {
+  width: 100%;
+  max-width: 300px;
 }
