@@ -1,4 +1,4 @@
-.list {
+/* .list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -9,4 +9,16 @@
 .item {
   max-width: 600px;
   list-style: none;
+} */
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Дві колонки однакової ширини */
+  gap: 20px; /* Відступ між блоками */
+  padding: 20px; /* Відступ всередині контейнера */
+}
+
+.item {
+  list-style: none; /* Видалення маркерів списку */
+  margin: 0; /* Нульовий відступ */
 }

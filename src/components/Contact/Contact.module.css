@@ -1,13 +1,38 @@
 .container {
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 4px;
-  display: flexbox;
-  align-items: center;
+  display: flex;
   justify-content: space-between;
-  gap: 12px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc; /* Рамка навколо кожного контакту */
+  border-radius: 5px; /* Закруглені кути рамки */
+  margin-bottom: 10px; /* Відступ між контактами */
+  width: 250px;
 }
 
-.text {
-  margin: 0;
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.number {
+  margin: 0; /* Відсутність зовнішнього відступу для абзаців */
+}
+
+.icon {
+  margin-right: 5px; /* Відступ між іконкою і текстом */
+}
+
+.btn {
+  padding: 5px 10px;
+  border-color: gray;
+  background-color: gray; /* Колір фону кнопки */
+  background-color: #ccc;
+  color: black; /* Колір тексту кнопки */
+  border-radius: 5px; /* Закруглені кути кнопки */
+  cursor: pointer; /* Зміна курсору при наведенні */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Зміна кольору фону кнопки при наведенні */
 }

@@ -14,11 +14,23 @@ export default function ContactForm({ onAdd }) {
   return (
     <Formik initialValues={{}} onSubmit={handleSubmit}>
       <Form className={css.form}>
-        Name
-        <Field className={css.field} type="text" name="username" />
-        Number
-        <Field type="text" name="number" />
-        <button type="submit">Add contact</button>
+        <div className={css.fieldContainer}>
+          <label htmlFor="username" className={css.label}>
+            Name
+          </label>
+          <Field className={css.field} type="text" name="username" />
+        </div>
+        <div className={css.fieldContainer}>
+          <label htmlFor="number" className={css.label}>
+            Number
+          </label>
+          <Field className={css.field} type="text" name="number" />
+        </div>
+        <div className={css.buttonContainer}>
+          <button className={css.button} type="submit">
+            Add contact
+          </button>
+        </div>
       </Form>
     </Formik>
   );

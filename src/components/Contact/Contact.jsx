@@ -5,10 +5,14 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 export default function Contact({ data: { id, name, number }, onDelete }) {
   return (
     <div className={css.container}>
-      <p className={css.text}>
-        <HiUser /> {name} <BsFillTelephoneFill />
-        {number}
-      </p>
+      <div className={css.info}>
+        <p className={css.name}>
+          <HiUser className={css.icon} /> {name}
+        </p>
+        <p className={css.number}>
+          <BsFillTelephoneFill className={css.icon} /> {number}
+        </p>
+      </div>
       <button className={css.btn} onClick={() => onDelete(id)}>
         Delete
       </button>
