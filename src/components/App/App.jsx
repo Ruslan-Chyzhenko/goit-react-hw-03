@@ -1,7 +1,7 @@
-import TaskList from "../TaskList/TaskList";
+import ContactList from "../ContactList/ContactList";
 import initialTasks from "../tasks.json";
-import Form from "../Form/Form";
-import Filter from "../Filter/Filter";
+import ContactForm from "../ContactForm/ContactForm";
+import SearchBox from "../SearchBox/SearchBox";
 import css from "../App/App.module.css";
 import { useState } from "react";
 
@@ -27,9 +27,10 @@ export default function App() {
 
   return (
     <div className={css.container}>
-      <Form onAdd={addTask} />
-      <Filter value={filter} onFilter={setFilter} />
-      <TaskList tasks={visibleTasks} onDelete={deleteTask} />
+      <h1>PhoneBook</h1>
+      <ContactForm onAdd={addTask} />
+      <SearchBox value={filter} onFilter={setFilter} />
+      <ContactList tasks={visibleTasks} onDelete={deleteTask} />
     </div>
   );
 }

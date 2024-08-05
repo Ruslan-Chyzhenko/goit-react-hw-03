@@ -1,6 +1,6 @@
-import css from "./Form.module.css";
+import css from "./ContactForm.module.css";
 
-export default function Form({ onAdd }) {
+export default function ContactForm({ onAdd }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onAdd({

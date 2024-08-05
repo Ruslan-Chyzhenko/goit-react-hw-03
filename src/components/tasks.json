@@ -1,31 +1,6 @@
 [
-  {
-    "text": "Unde tenetur tenetur recusandae nihil.",
-    "id": "1"
-  },
-  {
-    "text": "Iure hic quas unde ullam neque adipisci consectetur optio debitis.",
-    "id": "2"
-  },
-  {
-    "text": "Perspiciatis ad cupiditate voluptates.",
-    "id": "3"
-  },
-  {
-    "text": "Fugiat corrupti minus at tenetur veniam quam cumque nemo sit.",
-    "id": "4"
-  },
-  {
-    "text": "Reprehenderit accusamus est.",
-    "completed": false,
-    "id": "5"
-  },
-  {
-    "text": "Accusantium molestiae vel ipsum tempore voluptate et.",
-    "id": "6"
-  },
-  {
-    "text": "Aut doloremque ea quidem a voluptate dignissimos.",
-    "id": "7"
-  }
+  { "id": "id-1", "name": "Rosie Simpson", "number": "459-12-56" },
+  { "id": "id-2", "name": "Hermione Kline", "number": "443-89-12" },
+  { "id": "id-3", "name": "Eden Clements", "number": "645-17-79" },
+  { "id": "id-4", "name": "Annie Copeland", "number": "227-91-26" }
 ]
