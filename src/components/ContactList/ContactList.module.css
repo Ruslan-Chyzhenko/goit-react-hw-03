@@ -1,24 +1,11 @@
-/* .list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.item {
-  max-width: 600px;
-  list-style: none;
-} */
-
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Дві колонки однакової ширини */
-  gap: 20px; /* Відступ між блоками */
-  padding: 20px; /* Відступ всередині контейнера */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
 .item {
-  list-style: none; /* Видалення маркерів списку */
-  margin: 0; /* Нульовий відступ */
+  list-style: none;
+  margin: 0;
 }

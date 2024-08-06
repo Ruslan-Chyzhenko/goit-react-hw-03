@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 1px solid #ccc; /* Рамка навколо кожного контакту */
-  border-radius: 5px; /* Закруглені кути рамки */
-  margin-bottom: 10px; /* Відступ між контактами */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
   width: 250px;
 }
 
@@ -16,23 +16,23 @@
 
 .name,
 .number {
-  margin: 0; /* Відсутність зовнішнього відступу для абзаців */
+  margin: 0;
 }
 
 .icon {
-  margin-right: 5px; /* Відступ між іконкою і текстом */
+  margin-right: 5px;
 }
 
 .btn {
   padding: 5px 10px;
   border-color: gray;
-  background-color: gray; /* Колір фону кнопки */
+  background-color: gray;
   background-color: #ccc;
-  color: black; /* Колір тексту кнопки */
-  border-radius: 5px; /* Закруглені кути кнопки */
-  cursor: pointer; /* Зміна курсору при наведенні */
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Зміна кольору фону кнопки при наведенні */
+  background-color: #0056b3;
 }

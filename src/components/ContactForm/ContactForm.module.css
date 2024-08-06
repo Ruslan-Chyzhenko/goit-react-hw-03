@@ -5,37 +5,38 @@
   max-width: 300px;
   align-items: center;
   gap: 10px;
-  border: 2px solid #000; /* рамка навколо форми */
-  padding: 20px; /* відступи всередині форми */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* тінь для рамки */
-  border-radius: 10px; /* закруглені кути рамки */
+  border: 2px solid #000;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .fieldContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* текст справа */
+  align-items: flex-start;
   gap: 5px;
   width: 100%;
 }
 
 .label {
-  align-self: flex-start; /* вирівнювання мітки вліво */
-  margin-bottom: 5px; /* відступ між міткою і полем */
+  align-self: flex-start;
+  margin-bottom: 5px;
   width: 300px;
 }
 
 .field {
-  /* font: inherit;
-  padding: 4px;
-  width: auto;
-  height: 15px; */
-  width: 300px; /* однакова ширина для всіх полів введення */
-  height: 30px; /* однакова висота для всіх полів введення */
-  padding: 10px; /* паддінги всередині полів введення */
-  border: 1px solid #ccc; /* рамка для полів введення */
-  border-radius: 5px; /* закруглені кути полів введення */
-  box-sizing: border-box; /* врахування паддінгу і рамки у розмір */
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
 }
 
 .buttonContainer {
@@ -46,14 +47,14 @@
 
 .button {
   padding: 10px 20px;
-  border-color: gray; /* прибрати стандартну рамку кнопки */
-  background-color: #ccc; /* колір фону кнопки */
-  color: black; /* колір тексту кнопки */
-  border-radius: 5px; /* закруглені кути кнопки */
-  cursor: pointer; /* зміна курсору при наведенні */
+  border-color: gray;
+  background-color: #ccc;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .button:hover {
-  background-color: #0056b3; /* зміна кольору фону кнопки при наведенні */
+  background-color: #0056b3;
   color: white;
 }

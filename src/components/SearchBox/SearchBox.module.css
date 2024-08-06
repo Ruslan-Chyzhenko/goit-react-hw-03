@@ -1,25 +1,25 @@
 .searchBoxContainer {
-  width: 100%; /* Зробити контейнер пошукового поля такої ж ширини, як і форма */
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  margin-bottom: 20px; /* Відступ знизу, щоб відокремити від інших елементів форми */
-  max-width: 330px; /* Встановлює максимальну ширину для контейнера */
-  padding: 10px; /* Додає відступи всередині контейнера */
+  margin-bottom: 20px;
+  max-width: 330px;
+  padding: 10px;
 }
 
 .labelSearch {
   align-self: flex-start;
-  margin-bottom: 10px; /* Відступ між міткою і полем */
+  margin-bottom: 10px;
 }
 
 .searchInput {
-  width: 100%; /* Ширина поля дорівнює ширині контейнера */
-  max-width: 400px; /* Максимальна ширина поля для запобігання надмірному розширенню */
-  height: 40px; /* Висота поля */
-  padding: 10px; /* Паддінг всередині поля */
-  border: 1px solid #ccc; /* Рамка поля */
-  border-radius: 5px; /* Закруглені кути поля */
-  box-sizing: border-box; /* Врахування паддінгу і рамки у розмір */
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
